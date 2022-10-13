@@ -1,0 +1,27 @@
+<svg>
+  
+ <g transform="scale(1.12)">
+  <g id="hours" transform='translate(150,150-123)'>
+    <image  x="-123" y="-123" width="247" height="247" href="hours.png" />
+  </g> 
+    
+   <g id="minutes" transform='translate(150+2,150+123)'>
+      <image  x="-123" y="-123" width="247" height="247" href="minutes.png" />
+   </g>
+  
+  <image id="hourglass" x="150-49" y="150-78" width="98" height="156" href="hourglass.png" />
+  
+  <g id="date" display="none">
+       <image id="dateback" x="150-140" y="150-18" width="37" height="37" href="dateplaceholder.png" />
+       <text id="datetext"  x="150-121" y="150+10" font-family="Tungsten-Medium" fill="black" font-size="25" text-anchor="middle"/>
+   </g>
+  
+   <g id="ampm" display="none">
+       <image id="ampmback" x="150+105" y="150-18" width="37" height="37" href="dateplaceholder.png" />
+       <g transform="translate(150+124, 3-20) scale(0.87, 1)">
+          <text id="ampmtext"  font-family="Tungsten-Medium" fill="black" font-size="24" text-anchor="middle"/>
+       </g>
+   </g> 
+</g>
+
+</svg>
